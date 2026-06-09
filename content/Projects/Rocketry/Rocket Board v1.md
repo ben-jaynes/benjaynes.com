@@ -35,7 +35,7 @@ I also added a NAND flash with the idea that I could write to it as well as the 
 I used [Kicad](https://www.kicad.org/) to create the schematic and board layout. 
 
 ![[RocketBoard.svg]]
-[Link to pdf](Attachments/RocketBoardV1-Schematic.pdf)
+[Link to pdf](RocketBoardV1-Schematic.pdf)
 ## Board Bringup
 
 Once the soldering was done, I had to burn a bootloader onto the board. I exposed the pins for serial wire debug, which is what I used to do this. Normally, you have to use another board with a ATSAMD21 processor to burn the bootloader, but I was able to use a Raspberry Pi Pico since their microcontrollers are similar enough. This allowed me to flash the bootloader and then use the MicroUSB port to upload code. 
